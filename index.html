@@ -6,25 +6,36 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Austin Rogers - Level Designer</title>
         <link rel="stylesheet" href="css/main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quattrocento:wght@700&display=swap" rel="stylesheet">
     </head>
     <body>
 
         <section class="section">
-            <div class="column is-8-desktop is-offset-2-desktop">
+            <div class="column is-10-desktop is-offset-1-desktop is-9-mobile is-offset-1-mobile pt-0">
                 <nav class="navbar" role="navigation" aria-label="main navigation">
                     <div class="navbar-brand">
-                        <a class="navbar-item" href="/index.html">
-                            <strong class="title is-size-6-mobile">Austin Trad Rogers</strong>
+                        <a class="navbar-item">
+                            <!--strong class="title is-size-6-mobile">Austin Trad Rogers</strong-->
+                            <a class="is-hidden-mobile" href="/index.html">
+                                <img src="assets/LogoAndName.png" width=350/>
+                            </a>
+                        </a>
+                        <a class="navbar-item">
+                            <a class="is-hidden-tablet" href="/index.html">
+                                <img src="assets/LogoAndName.png" width=200/>
+                            </a>
                         </a>
 
-                        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navBarData">
                             <span aria-hidden="true"></span>
                             <span aria-hidden="true"></span>
                             <span aria-hidden="true"></span>
                         </a>
                     </div>
 
-                    <div id="navbarBasicExample" class="navbar-menu">
+                    <div id="navBarData" class="navbar-menu">
                         <div class="navbar-start">
 
                         </div>
@@ -60,22 +71,59 @@
             </div>
             <div class="container">
                 <div class="columns">
-                    <div class="column">
+                    <div class="column is-half is-offset-one-quarter has-text-dark pb-0">
                         <h1 class="has-text-centered is-size-3 is-size-4-mobile">Hi there! I am a Level Designer.</h1>
                     </div>
                 </div>
-                <hr class="is-centered" style="height:1px; width:50%; margin: 1em auto;" />
+                <hr/>
 
                 <div class="columns">
-                    <div class="column">
-
+                    <div class="column is-hidden-mobile is-offset-1-desktop has-text-vcentered">
+                        <h1 class="title is-2">Main Project <em class="title is-5">(if you make one stop on my site, make it here!)</em></h1>
                     </div>
                 </div>
 
 
 
                 <div class="columns">
-                    <div class="column is-5-desktop is-offset-1-desktop">
+                    <div class="column is-6-desktop is-offset-1-desktop">
+                        <img src="assets/BoatClubLevel-2-21-22trimmed.webp" alt="Gameplay video"/>
+                        <div class="columns is-mobile">
+                            <div class="column">
+                                <a href="assets/beachbefore.png" target="_blank">
+                                    <img src="assets/beachbefore.png">
+                                </a>
+                            </div>
+                            <div class="column">
+                                <a href="assets/beachbefore.png" target="_blank">
+                                    <img src="assets/beachbefore.png">
+                                </a>
+                            </div>
+                            <div class="column">
+                                <a href="assets/beachbefore.png" target="_blank">
+                                    <img src="assets/beachbefore.png">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="columns is-mobile">
+                            <div class="column">
+                                <a href="assets/beachbefore.png" target="_blank">
+                                    <img src="assets/beachbefore.png">
+                                </a>
+                            </div>
+                            <div class="column">
+                                <a href="assets/beachbefore.png" target="_blank">
+                                    <img src="assets/beachbefore.png">
+                                </a>
+                            </div>
+                            <div class="column">
+                                <a href="assets/beachbefore.png" target="_blank">
+                                    <img src="assets/beachbefore.png">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-5-desktop">
                         <div class="content">
                             <h3 class="title">The Ancient Outskirts</h3>
                             <p class="subtitle is-6">
@@ -84,42 +132,219 @@
                             </p>
                         </div>
                         <div class="content">
-                            <p>My main objectives:</p>
-                            <ul>
-                                <li>Gameplay goals: show the player the types of experiences they can expect the game to offer, teach core mechanics with organic tutorials, match Ytric's gameplay abilities with his narrative progression.</li>
-                                <li>Narrative goals: hook the player with large-scale and exciting moments, establish Knit and Ytric's relationship, begin Ytric's growth in power and hint at his future potential. </li>
+                            <!--p>My main objectives:</p>
+<ul>
+<li>Gameplay goals: show the player the types of experiences they can expect the game to offer, teach core mechanics with organic tutorials, match Ytric's gameplay abilities with his narrative progression.</li>
+<li>Narrative goals: hook the player with large-scale and exciting moments, establish Knit and Ytric's relationship, begin Ytric's growth in power and hint at his future potential. </li>
+</ul-->
+                            <p class="mb-1">Level Design work:</p>
+                            <ul class="mt-0">
+                                <li>Built level blockout, designed 2D map, planned combat spaces and encounters, designed puzzles.</li>
+                                <li>Conceptualized and scripted narrative moments.</li>
                             </ul>
+                            <p class="mb-1">Additional tasks:</p>
+                            <ul class="mt-0">
+                                <li>Scripted melee combat system, enemy AI behaviors, interactive puzzle elements, custom gameplay mechanics.</li></ul>
+                            <p class="mb-1">Info:</p>
+                            <ul class="mt-0">
+                                <li>Solo Project</li>
+                                <li><strong>Unreal Engine 4</strong> (used Blueprints for scripting)</li>
+                                <li><strong>Maya</strong> (used for entire blockout)</li>
+                            </ul>
+                            <div class="column has-text-centered">
+                                <a class="button is-medium is-dark" href="ancient-outskirts.html">
+                                    View Project
+                                </a>
+                            </div>
                         </div>
                     </div>
-                    <div class="column is-half-desktop">
-                        <img src="assets/BoatClubLevel-2-21-22trimmed.webp" alt="Gameplay video"/>
-                    </div>
+
                 </div>
-            </div>
-        </section>
-        <footer class="footer has-text-centered">
-            <div class="container">
-                <div class="columns">
-                    <div class="column is-8-desktop is-offset-2-desktop">
-                        <p>
-                            <strong class="has-text-weight-semibold">
-                                <a href="https://www.npmjs.com/package/bulma-start">bulma-start@0.0.5</a>
-                            </strong>
-                        </p>
-                        <p>
-                            <small>
-                                Source code licensed <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
-                            </small>
-                        </p>
-                        <p style="margin-top: 1rem;">
-                            <a href="http://bulma.io">
-                                <img src="made-with-bulma.png" alt="Made with Bulma" width="128" height="24">
-                            </a>
-                        </p>
+                <hr />
+                <div class="container">
+
+                    <div class="columns">
+                        <div class="column is-hidden-mobile is-offset-1-desktop has-text-vcentered">
+                            <h1 class="title is-2">Additional Projects</h1>
+                        </div>
                     </div>
-                </div>
-            </div>
-        </footer>
-        <script type="text/javascript" src="lib/main.js"></script>
-    </body>
-</html>
+
+
+
+
+                    <div class="columns">
+                        <div class="column is-6-desktop is-offset-1-desktop">
+                            <img src="assets/BoatClubLevel-2-21-22trimmed.webp" alt="Gameplay video"/>
+                            <div class="columns is-mobile">
+                                <div class="column">
+                                    <a href="assets/beachbefore.png" target="_blank">
+                                        <img src="assets/beachbefore.png">
+                                    </a>
+                                </div>
+                                <div class="column">
+                                    <a href="assets/beachbefore.png" target="_blank">
+                                        <img src="assets/beachbefore.png">
+                                    </a>
+                                </div>
+                                <div class="column">
+                                    <a href="assets/beachbefore.png" target="_blank">
+                                        <img src="assets/beachbefore.png">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="columns is-mobile">
+                                <div class="column">
+                                    <a href="assets/beachbefore.png" target="_blank">
+                                        <img src="assets/beachbefore.png">
+                                    </a>
+                                </div>
+                                <div class="column">
+                                    <a href="assets/beachbefore.png" target="_blank">
+                                        <img src="assets/beachbefore.png">
+                                    </a>
+                                </div>
+                                <div class="column">
+                                    <a href="assets/beachbefore.png" target="_blank">
+                                        <img src="assets/beachbefore.png">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column is-5-desktop">
+                            <div class="content">
+                                <h3 class="title">The Ancient Outskirts</h3>
+                                <p class="subtitle is-6">
+                                    <em>Follow Knit and Ytric into unknown lands against unforeseen threats while they learn to share a single consciousness.
+                                        <br> A third person, melee combat, action-adventure level. </em>
+                                </p>
+                            </div>
+                            <div class="content">
+                                <!--p>My main objectives:</p>
+<ul>
+<li>Gameplay goals: show the player the types of experiences they can expect the game to offer, teach core mechanics with organic tutorials, match Ytric's gameplay abilities with his narrative progression.</li>
+<li>Narrative goals: hook the player with large-scale and exciting moments, establish Knit and Ytric's relationship, begin Ytric's growth in power and hint at his future potential. </li>
+</ul-->
+                                <p class="mb-1">Level Design work:</p>
+                                <ul class="mt-0">
+                                    <li>Built level blockout, designed 2D map, planned combat spaces and encounters, designed puzzles.</li>
+                                    <li>Conceptualized and scripted narrative moments.</li>
+                                </ul>
+                                <p class="mb-1">Additional tasks:</p>
+                                <ul class="mt-0">
+                                    <li>Scripted melee combat system, enemy AI behaviors, interactive puzzle elements, custom gameplay mechanics.</li></ul>
+                                <p class="mb-1">Info:</p>
+                                <ul class="mt-0">
+                                    <li>Solo Project</li>
+                                    <li><strong>Unreal Engine 4</strong> (used Blueprints for scripting)</li>
+                                    <li><strong>Maya</strong> (used for entire blockout)</li>
+                                </ul>
+                                <div class="column has-text-centered">
+                                    <a class="button is-medium is-dark" href="ancient-outskirts.html">
+                                        View Project
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="container">
+                        <div class="columns">
+                            <div class="column is-6-desktop is-offset-1-desktop">
+                                <img src="assets/BoatClubLevel-2-21-22trimmed.webp" alt="Gameplay video"/>
+                                <div class="columns is-mobile">
+                                    <div class="column">
+                                        <a href="assets/beachbefore.png" target="_blank">
+                                            <img src="assets/beachbefore.png">
+                                        </a>
+                                    </div>
+                                    <div class="column">
+                                        <a href="assets/beachbefore.png" target="_blank">
+                                            <img src="assets/beachbefore.png">
+                                        </a>
+                                    </div>
+                                    <div class="column">
+                                        <a href="assets/beachbefore.png" target="_blank">
+                                            <img src="assets/beachbefore.png">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="columns is-mobile">
+                                    <div class="column">
+                                        <a href="assets/beachbefore.png" target="_blank">
+                                            <img src="assets/beachbefore.png">
+                                        </a>
+                                    </div>
+                                    <div class="column">
+                                        <a href="assets/beachbefore.png" target="_blank">
+                                            <img src="assets/beachbefore.png">
+                                        </a>
+                                    </div>
+                                    <div class="column">
+                                        <a href="assets/beachbefore.png" target="_blank">
+                                            <img src="assets/beachbefore.png">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column is-5-desktop">
+                                <div class="content">
+                                    <h3 class="title">The Ancient Outskirts</h3>
+                                    <p class="subtitle is-6">
+                                        <em>Follow Knit and Ytric into unknown lands against unforeseen threats while they learn to share a single consciousness.
+                                            <br> A third person, melee combat, action-adventure level. </em>
+                                    </p>
+                                </div>
+                                <div class="content">
+                                    <!--p>My main objectives:</p>
+<ul>
+<li>Gameplay goals: show the player the types of experiences they can expect the game to offer, teach core mechanics with organic tutorials, match Ytric's gameplay abilities with his narrative progression.</li>
+<li>Narrative goals: hook the player with large-scale and exciting moments, establish Knit and Ytric's relationship, begin Ytric's growth in power and hint at his future potential. </li>
+</ul-->
+                                    <p class="mb-1">Level Design work:</p>
+                                    <ul class="mt-0">
+                                        <li>Built level blockout, designed 2D map, planned combat spaces and encounters, designed puzzles.</li>
+                                        <li>Conceptualized and scripted narrative moments.</li>
+                                    </ul>
+                                    <p class="mb-1">Additional tasks:</p>
+                                    <ul class="mt-0">
+                                        <li>Scripted melee combat system, enemy AI behaviors, interactive puzzle elements, custom gameplay mechanics.</li></ul>
+                                    <p class="mb-1">Info:</p>
+                                    <ul class="mt-0">
+                                        <li>Solo Project</li>
+                                        <li><strong>Unreal Engine 4</strong> (used Blueprints for scripting)</li>
+                                        <li><strong>Maya</strong> (used for entire blockout)</li>
+                                    </ul>
+                                    <div class="column has-text-centered">
+                                        <a class="button is-medium is-dark" href="ancient-outskirts.html">
+                                            View Project
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    </section>
+                <footer class="footer has-text-centered">
+                    <div class="container has-text-grey">
+                        <div class="columns">
+                            <div class="column is-8-desktop is-offset-2-desktop">
+                                <a class="icon m-1" href="mailto:austintradr@gmail.com">
+                                    <div class="container has-text-dark"><ion-icon size="large" name="mail"></ion-icon></div>
+                                </a>
+
+                                <a class="icon m-1" href="https://www.linkedin.com/in/austintradr" target="_blank">
+                                    <div class="container has-text-dark"><ion-icon size="large" name="logo-linkedin"></ion-icon></div>
+                                </a>
+                                <div class="container has-text-grey">austintradr@gmail.com</div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+                <script type="text/javascript" src="lib/main.js"></script>
+                <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+                <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+                </body>
+            </html>
