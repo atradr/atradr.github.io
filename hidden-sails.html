@@ -79,7 +79,7 @@
                 <div id="playthrough-vid" class="columns">
                     <div class="column has-text-centered is-offset-1-desktop is-5-desktop">
                         <!-- <youtube :video-id="video1"></youtube> -->
-                        <iframe class="is-hidden-mobile" width="528" height="297" src="https://www.youtube.com/embed/3-0jBB62C18" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe class="is-hidden-mobile" width="100%" height="297" src="https://www.youtube.com/embed/3-0jBB62C18" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         <iframe class="is-hidden-tablet" width="384" height="216" src="https://www.youtube.com/embed/3-0jBB62C18" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         <p class=""><em>Playthrough of the destroyed pier area.</em></p>
                     </div>
@@ -93,61 +93,54 @@
                     </div>
                 </div>
 
+                <div id="hidden-sails-resort" class="columns">
+
+
+
+                    <div class="column is-offset-1-desktop is-5-desktop">
+                        <div class="content">
+                            <h1 class="title is-5">Overview</h1>
+                            <p class="subtitle is-6">
+                                <em>Invade an island and overcome platforming and combat challenges in open-ended areas.
+                                <br>An FPS/Platformer level. </em>
+                            </p>
+                        </div>
+                        <div class="content">
+                            <p class="mb-1">Level Design work:</p>
+                            <ul class="mt-0">
+                                <li>Designed a 2D Map and built the level blockout with Maya; designed encounter areas and navigation challenges; set up test scenarios for prototyping movement and other metrics in practical situations.</li>
+                                <li>Main objective: Create areas with memorable identities that intrigue and encourage exploration.</li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="content">
+                            <br class="is-hidden-mobile">
+                            <p class="mb-1">Additional tasks:</p>
+                            <ul class="mt-0">
+                                <li>Prototyped player movement mechanics, weapons, basic enemy AI behaviors, and dynamic level features.</li></ul>
+                            <p class="mb-1">Info:</p>
+                            <ul class="mt-0">
+                                <li>Solo Project</li>
+                                <li><strong>Unreal Engine 4</strong> (used Blueprints for scripting)</li>
+                                <li><strong>Maya</strong> (used for entire blockout)</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+
                 <hr />
                 <br>
+
 
                 <div class="columns">
                     <div class="column has-text-centered">
-                        <h1 class="title is-3">Creating challenges with unique identities and approaches</h1>
-                    </div>
-                </div>
-                <div class="columns has-text-centered">
-                    <div class="column is-offset-1-desktop is-5-desktop">
-                        <figure class="image is-16by9">
-                            <a href="assets/hsr/hsr-pierobjectives.jpg" target="_blank">
-                                <img src="assets/hsr/hsr-pierobjectives.jpg">
-                            </a>
-                        </figure>
-                        <p class=""><em>The destroyed pier area.</em></p>
-                    </div>
-                    <div class="column is-5-desktop">
-                        <figure class="image is-16by9">
-                            <a href="assets/hsr/hsr-tunnel.jpg" target="_blank">
-                                <img src="assets/hsr/hsr-tunnel.jpg">
-                            </a>
-                        </figure>
-                        <p class=""><em>The crystal mine's tunnel entrance and final room.</em></p>
+                        <h1 class="title is-1 is-offset-2-desktop">~ Process ~</h1>
                     </div>
                 </div>
 
-                <div class="columns">
-                    <div class="column is-offset-one-quarter-desktop is-half-desktop">
-                        <div class="content">
-                            <ul>
-                                <li>I wanted each challenge to have a clear identity so they would both draw players to them and help the player remember which challenges they have already completed.
-                                    <ul>
-                                        <li>As part of this, I made sure players regularly navigate to high vantage points to help them spot their next destination.</li>
-                                        <li>Climbing up to the sign, which is the closest challenge to the entrance of the area, places the player on top of the roof of the main building, providing a thorough overview of the area.</li>
-                                    </ul> 
-                                </li>
-
-                                <li>I also wanted all the challenges to require different player abilities to successfully complete.
-                                    <ul>
-                                        <li>For example, climbing the destroyed sign requires use of the grapple, while making it past the snipers on the docks requires use of the bullet-shield because of the sparse cover.</li>
-                                    </ul>
-                                </li>
-
-                                <li>The hidden cave within the destroyed tunnel provides unique challenges and setting that make it distinct from the rest of the area.</li>
-
-                            </ul>
-                        </div>
-                    </div>    
-                </div>
-
-                <br>
-                <hr />
-                <br>
-                <br>
 
                 <div class="columns">
                     <div class="column has-text-centered">
@@ -177,113 +170,165 @@
                     <div class="column is-offset-one-quarter-desktop is-half-desktop">
                         <div class="content">
                             <ul>
-                                <li>During early playtesting, I was getting feedback that spaces felt clunky and were not fun to navigate through.
-                                    <ul>
-                                        <li>But my question asking was too broad: "Did you enjoy navigating through the level?" <strong>So I struggled to take any actionable information from it.</strong></li>
-                                    </ul>
+                                <li><strong>During early playtesting,</strong> I was getting feedback that spaces felt clunky and were not fun to navigate through.
                                 </li>
-                                <li>I began watching players play, taking note of the specific areas that players liked and did not.
-                                    <ul>
-                                        <li>It became apparent that among the two types of grapple targets, players enjoyed one, and strongly disliked the other.</li>
-                                        <li>The awkward grapple spots, which required extra jumps to reach the top of, seemed to be the source of frustration that led to the descriptions of clunkiness.</li>
-                                    </ul>
+                                <li><strong>The problem:</strong> My question asking was too broad with questions that I struggled to take any actionable information from.</li>
+                                <li><strong>The solution:</strong> I took multiple steps to change my playtesting process and locate the root of the problem:
+                                    <ol class="mt-1">
+                                        <li>I began by starting to watch players play, ask questions live, and take notes of the specific moments that players liked and disliked.</li>
+                                        <li>It became apparent that among the two types of grapple targets, players enjoyed one, and struggled with the other.</li>
+                                        <li>I believed the navigation clunkiness may lie with my grapple mechanics, rather than the spaces in the level.
+                                            <ul>
+                                                <li><strong>To test this,</strong> I built a practice area for players to learn the grapple mechanics more thoroughly. </li>
+                                            </ul></li>
+                                        <li>I found that after players were comfortable with the difficult grapple, the areas that were described as clunky became enjoyable, and the complaints about navigation subsided.</li>
+                                        <li>This told me that the <strong>real solution</strong> to the problem was polishing the grapple mechanics.</li>
+                                    </ol>
                                 </li>
+                            </ul>
 
-                                <li>I built a small practice arena with the types of grapple spots players struggled with, and had them spend some time practicing the timings of the follow-up jumps.
-                                    <ul>
-                                        <li>After players were comfortable with this type of grapple, the areas that were described as clunky became enjoyable, and the complaints about navigation subsided.</li>
-                                        <li>This showed that the real solution to the problem was polishing the grapple mechanics. (I believe that if the grapple automatically clambers the player onto ledges, then these issues would be bypassed.)</li>
-                                    </ul>
-                                </li>
-                                
-                                <li><strong>My takeaway</strong> was the importance of locating the true source of an issue so that accurate actions can be taken.
-                                    <ul>
-                                        <li>If I had listened only to the initial, vague feedback, I would have remade a significant portion of the level, only to find I was no closer to solving the issue than before.</li>
-                                    </ul>
-                                </li>
+
+                            <li><strong>My takeaway</strong> was the importance of locating the true source of an issue so that accurate actions can be taken.
+                                <ul>
+                                    <li>If I had listened only to the initial, vague feedback, I would have remade a significant portion of the level, only to find I was no closer to solving the issue than before.</li>
+                                </ul>
+                            </li>
 
 
                             </ul>
-                        </div>
-                    </div>    
-                </div>
-
-                
-
-                <br>
-                <hr />
-                <br>
-                <br>
-
-
-                <div class="columns">
-                    <div class="column has-text-centered">
-                        <h1 class="title is-3">My plans for the second major area in the level</h1>
                     </div>
+                </div>    
+            </div>
+
+
+
+            <br>
+            <hr />
+            <br>
+            <br>
+
+            <div class="columns">
+                <div class="column has-text-centered">
+                    <h1 class="title is-3">Creating challenges with unique identities and approaches</h1>
                 </div>
-                <div class="columns has-text-centered">
-                    <div class="column is-offset-1-desktop is-5-desktop">
-                        <figure class="image is-16by9">
-                            <a href="assets/hsr/hsr-resortWIP.jpg" target="_blank">
-                                <img src="assets/hsr/hsr-resortWIP.jpg">
-                            </a>
-                        </figure>
-                        <p class=""><em>Early blockout of the resort area.</em></p>
+            </div>
+            <div class="columns has-text-centered">
+                <div class="column is-offset-1-desktop is-5-desktop">
+                    <figure class="image is-16by9">
+                        <a href="assets/hsr/hsr-pierobjectives.jpg" target="_blank">
+                            <img src="assets/hsr/hsr-pierobjectives.jpg">
+                        </a>
+                    </figure>
+                    <p class=""><em>The destroyed pier area.</em></p>
+                </div>
+                <div class="column is-5-desktop">
+                    <figure class="image is-16by9">
+                        <a href="assets/hsr/hsr-tunnel.jpg" target="_blank">
+                            <img src="assets/hsr/hsr-tunnel.jpg">
+                        </a>
+                    </figure>
+                    <p class=""><em>The crystal mine's tunnel entrance and final room.</em></p>
+                </div>
+            </div>
+
+            <div class="columns">
+                <div class="column is-offset-one-quarter-desktop is-half-desktop">
+                    <div class="content">
+                        <ul>
+                            <li>I wanted each challenge to have a <strong>strong identity</strong> to draw players to them and help the player remember which challenges they have already completed.
+                                <ul>
+                                    <li>As part of this, I made sure players regularly navigate to high vantage points to help them spot their next destination.</li>
+                                    <li>For example, climbing up to the sign, which is the closest challenge to the entrance of the area, provides a thorough overview of the area.</li>
+                                </ul> 
+                            </li>
+
+                            <li>I also wanted all the challenges to require <strong>different player abilities</strong> to successfully complete.
+                                <ul>
+                                    <li>For example, climbing the destroyed sign requires use of the grapple, while making it past the snipers on the docks requires use of the bullet-shield because of the sparse cover.</li>
+                                </ul>
+                            </li>
+
+                            <li>The hidden cave within the destroyed tunnel also provides unique challenges and setting that make it distinct from the rest of the area.</li>
+
+                        </ul>
                     </div>
-                    <div class="column is-5-desktop">
-                        <figure class="image is-16by9">
-                            <a href="assets/hsr/hsr-resortWIPview.jpg" target="_blank">
-                                <img src="assets/hsr/hsr-resortWIPview.jpg">
-                            </a>
-                        </figure>
-                        <p class=""><em>The view of the resort blockout from the destroyed pier area.</em></p>
+                </div>    
+            </div>
+
+            <br>
+            <hr />
+            <br>
+            <br>
+
+
+            <div class="columns">
+                <div class="column has-text-centered">
+                    <h1 class="title is-3">My plans for the second major area in the level</h1>
+                </div>
+            </div>
+            <div class="columns has-text-centered">
+                <div class="column is-offset-1-desktop is-5-desktop">
+                    <figure class="image is-16by9">
+                        <a href="assets/hsr/hsr-resortWIP.jpg" target="_blank">
+                            <img src="assets/hsr/hsr-resortWIP.jpg">
+                        </a>
+                    </figure>
+                    <p class=""><em>Early blockout of the resort area.</em></p>
+                </div>
+                <div class="column is-5-desktop">
+                    <figure class="image is-16by9">
+                        <a href="assets/hsr/hsr-resortWIPview.jpg" target="_blank">
+                            <img src="assets/hsr/hsr-resortWIPview.jpg">
+                        </a>
+                    </figure>
+                    <p class=""><em>The view of the resort blockout from the destroyed pier area.</em></p>
+                </div>
+            </div>
+
+            <div class="columns">
+                <div class="column is-offset-one-quarter-desktop is-half-desktop">
+                    <div class="content">
+                        <ul>
+                            <li>This area gives the level its name, a complex of buildings known as the <strong>Hidden Sails Resort</strong> that will overlook the destroyed pier and beckon the player with intriguing architecture.
+                                <ul>
+                                    <li>The central element of the resort is the large boat-conveyor belt that can be seen from almost anywhere in the level. It works as a constantly moving elevator, granting the player access to many layers of the area.</li>
+                                </ul>
+                            </li>
+
+                            <li><strong>My plans:</strong> I am currently designing this area to expand on the challenges that the player encounters in the destroyed pier.
+                                <ul><li>There will be more verticality, and the player will have a lot of freedom with navigating around, through, and over the various buildings. </li>
+                                    <li>Interior spaces will be much more expansive than the pier's, and combat spaces will further test the player's skill.</li>
+                                </ul>
+                            </li>
+
+                            <li>(This page will be updated with progress!)</li>
+
+                        </ul>
                     </div>
-                </div>
-
-                <div class="columns">
-                    <div class="column is-offset-one-quarter-desktop is-half-desktop">
-                        <div class="content">
-                            <ul>
-                                <li>This area gives the level its name, a complex of buildings known as the Hidden Sails Resort that will overlook the destroyed pier and beckon the player with intriguing architecture.
-                                    <ul>
-                                        <li>The central element of the resort is the large boat-conveyor belt that can be seen from almost anywhere in the level. It works as a constantly moving elevator, granting the player access to many layers of the area.</li>
-                                    </ul>
-                                </li>
-
-                                <li>I am currently designing this area to expand on the challenges that the player encounters in the destroyed pier.
-                                    <ul><li>There will be more verticality, and the player will have a lot of freedom with navigating around, through, and over the various buildings. </li>
-                                        <li>Interior spaces will be much more expansive than the pier's, and combat spaces will further test the player's skill.</li>
-                                    </ul>
-                                </li>
-
-                                <li>(This page will be updated with progress!)</li>
-
-                            </ul>
-                        </div>
-                    </div>    
-                </div>
+                </div>    
+            </div>
 
             </div>
         </section>
 
-        <footer class="footer has-text-centered">
-            <div class="container">
-                <div class="columns">
-                    <div class="column is-8-desktop is-offset-2-desktop">
-                        <a class="icon m-1" href="mailto:austintradr@gmail.com">
-                            <div class="container has-text-dark"><ion-icon size="large" name="mail"></ion-icon></div>
-                        </a>
+    <footer class="footer has-text-centered">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-8-desktop is-offset-2-desktop">
+                    <a class="icon m-1" href="mailto:austintradr@gmail.com">
+                        <div class="container has-text-dark"><ion-icon size="large" name="mail"></ion-icon></div>
+                    </a>
 
-                        <a class="icon m-1" href="https://www.linkedin.com/in/austintradr" target="_blank">
-                            <div class="container has-text-dark"><ion-icon size="large" name="logo-linkedin"></ion-icon></div>
-                        </a>
-                        <div class="container has-text-grey">austintradr@gmail.com || <a href="https://atr.itch.io/" target="_blank">atr.itch.io</a></div>
-                    </div>
+                    <a class="icon m-1" href="https://www.linkedin.com/in/austintradr" target="_blank">
+                        <div class="container has-text-dark"><ion-icon size="large" name="logo-linkedin"></ion-icon></div>
+                    </a>
+                    <div class="container has-text-grey">austintradr@gmail.com || <a href="https://atr.itch.io/" target="_blank">atr.itch.io</a></div>
                 </div>
             </div>
-        </footer>
-        <script type="text/javascript" src="lib/main.js"></script>
-        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        </div>
+    </footer>
+    <script type="text/javascript" src="lib/main.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     </body>
 </html>

@@ -77,21 +77,53 @@
                 </div>
 
                 <div id="playthrough-vid" class="columns">
-                    <div class="column has-text-centered is-offset-one-quarter-desktop is-half-desktop">
+                    <div class="column has-text-centered is-offset-1-desktop is-5-desktop">
                         <!-- <youtube :video-id="video1"></youtube> -->
-                        <iframe class="is-hidden-mobile" width="528" height="297" src="https://www.youtube.com/embed/6CHIuf-mkwU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe class="is-hidden-mobile" width="100%" height="297" src="https://www.youtube.com/embed/6CHIuf-mkwU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         <iframe class="is-hidden-tablet" width="384" height="216" src="https://www.youtube.com/embed/6CHIuf-mkwU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         <p class=""><em>Full playthrough of the level.</em></p>
+                    </div>
+                    
+                    <div class="column is-5-desktop">
+                        <div class="content">
+                            <h3 class="title is-5">Overview</h3>
+                            <p class="subtitle is-6">
+                                <em>Battle through the lava caves for a chance at reaching the looming lavafall facility.
+                                    <br> A fast paced FPS level built in the game</em> Prodeus.
+                            </p>
+                        </div>
+                        <div class="content">
+                            <p class="mb-1">Level Design work:</p>
+                            <ul class="mt-0">
+                                <li>Used the in-game level editor to design geometry; script combat encounters, puzzles, and animate narrative moments; and apply final textures and art.</li>
+                                <li>Created unique mechanics that augmented the level without disturbing the core gameplay.</li>
+                            </ul>
+
+                            <p class="mb-1">Info:</p>
+                            <ul class="mt-0">
+                                <li>Solo Project</li>
+                                <li>Built with the in-game level editor in the game <em>Prodeus</em>.</li>
+                            </ul>
+                        </div>
+
                     </div>
                 </div>
 
                 <div class="columns">
+                    
+                </div>
+
+
+                <hr />
+                <br>
+
+                <div class="columns">
                     <div class="column has-text-centered is-offset-one-quarter-desktop is-half-desktop">
-                        <p class="is-5"><strong>Note:</strong> While I am proud of some elements in this level, this page focuses on the <strong>mistakes</strong> I made. The learnings I took from this project were some of the most important I've had during my time with level design, and they had a significant impact in my development of <strong><a href="ancient-outskirts.html" target="_blank">The Ancient Outskirts</a></strong> and the <strong><a href="hidden-sails.html" target="_blank">Hidden Sails Resort</a></strong> levels.</p>
+                        <h1 class="title is-1 is-offset-2-desktop">~ Process ~</h1>
+                        <p class="subtitle is-6"><strong>Note:</strong> While I am proud of some elements in this level, this page focuses on the <strong>mistakes</strong> I made. The learnings I took from this project were some of the most important I've had during my time with level design, and they had a significant impact in my development of <strong><a href="ancient-outskirts.html" target="_blank">The Ancient Outskirts</a></strong> and the <strong><a href="hidden-sails.html" target="_blank">Hidden Sails Resort</a></strong> levels.</p>
                     </div>
                 </div>
 
-                <hr />
                 <br>
 
                 <div class="columns">
@@ -121,15 +153,11 @@
                 <div class="columns">
                     <div class="column is-offset-one-quarter-desktop is-half-desktop">
                         <div class="content">
+                            <em><strong>My takeaway: </strong>The level had a variety of issues, many of which would have been trivial to identify and fix if I had adequately prioritized playtesting. With both the other projects on my portfolio, I learned to prioritize playtesting early and often, and avoided similar problems.</em>
                             <ul>
-                                <li>The level had a variety of issues, many of which would have been trivial to identify and fix if I had adequately prioritized playtesting. With both the other projects on my portfolio, I learned to prioritize playtesting early and often, and avoided similar problems.</li>
                                 <li><strong>Issue 1:</strong> Late in the level, I created a platforming challenge that was far too difficult. 
                                     <ul>
-                                        <li>I wanted it to be more difficult than previous platforming, as the reward for completion was one of the strongest weapons in the game. But I underestimated the brutal timing required, and how punishing it was to climb back up after failed attempts. 
-                                            <ul>
-                                                <li>In fact, it was so frustrating, many players opted to skip it and forgo the weapon reward entirely.</li>
-                                            </ul>
-                                        </li>
+                                        <li>I wanted it to be more difficult than previous platforming, as the reward for completion was one of the strongest weapons in the game. But I underestimated the brutal timing required, and many players opted to skip it and forgo the weapon reward entirely.</li>
                                         <li>With playtesting, the difficulty would have been clear, and I could have made easy adjustments to make the challenge much more forgiving.</li>
                                     </ul> 
                                 </li>
@@ -142,7 +170,6 @@
 
                                 <li><strong>Issue 3:</strong> I created a recurring breakable rock for the level, but the active/inactive indicator was overlooked and players were left confused.
                                     <ul>
-                                        <li>Interactive rocks were indicated with a unique texture and color that stood out from the rest of the level. But the active indicator was too subtle: a single smoke stream coming from a crack in the rock.</li>
                                         <li>Players only paid attention to the unique color and texture of the rocks, so when they were inactive (shown by the absence of a smoke stream), players had no idea why the mechanic they learned previously was not working. </li>
                                         <li>With playtesting, it would have been obvious that the indicator was unclear to players, and I could have solved this by showing active/inactive through color and texture changes instead.</li>
                                     </ul>
@@ -186,12 +213,12 @@
                         <div class="content">
                             <ul>
                                 <li>Players who reviewed my level were disappointed with the ending, and I believe it is because of two main problems:
-                                <ul>
-                                    <li><strong>Problem 1: The gameplay does not evolve.</strong> The player has finally reached the destination they have been working towards, excited to discover what it holds - only for it to thrust them straight back into the same setting and content they've experienced through the rest of the level.</li>
-                                    <li><strong>Problem 2: Unique elements have little impact on gameplay.</strong> The central piece of this final combat zone is the large floating crystal. It fires a beam throughout the arena as it does earlier in the level. But I tuned this beam poorly, and it has almost no impact on how the fight plays out.</li>
+                                    <ul>
+                                        <li><strong>Problem 1: The gameplay does not evolve.</strong> The player has finally reached the destination they have been working towards, excited to discover what it holds - only for it to thrust them straight back into the same setting and content they've experienced through the rest of the level.</li>
+                                        <li><strong>Problem 2: Unique elements have little impact on gameplay.</strong> The central piece of this final combat zone is the large floating crystal. It fires a beam throughout the arena as it does earlier in the level. But I tuned this beam poorly, and it has almost no impact on how the fight plays out.</li>
                                     </ul>
                                 </li>
-                                
+
                                 <li>What I learned here played a big role in my decision making for <strong><a href="ancient-outskirts.html" target="_blank">The Ancient Outskirts</a></strong>. I cut a lot of content from the end of that level, in part because it was too much of the same content and it detracted from the level's most important moments.</li>
                             </ul>
                         </div>

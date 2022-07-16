@@ -79,11 +79,11 @@
                 <div id="playthrough-vid" class="columns">
                     <div class="column has-text-centered is-offset-1-desktop is-5-desktop">
                         <!-- <youtube :video-id="video1"></youtube> -->
-                        <iframe class="is-hidden-mobile" width="528" height="297" src="https://www.youtube.com/embed/SEkwrtscp1E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe class="is-hidden-mobile" width="100%" height="297" src="https://www.youtube.com/embed/SEkwrtscp1E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         <iframe class="is-hidden-tablet" width="384" height="216" src="https://www.youtube.com/embed/SEkwrtscp1E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         <p class=""><em>Full playthrough of the level.</em></p>
                     </div>
-                    <div class="column has-text-centered is-5-desktop">
+                    <div class="column has-text-centered is-offset-0-desktop is-5-desktop">
                         <figure class="image" >
                             <a href="assets/outskirts/TheAncientOutskirts-2DMap(HI-RES).png" target="_blank">
                                 <img src="assets/outskirts/TheAncientOutskirts-2DMap(HI-RES).png">
@@ -93,9 +93,54 @@
                     </div>
                 </div>
 
+
+                <div class="columns">
+                    <div class="column is-offset-1-desktop is-5-desktop">
+                        <div class="content">
+                            <h1 class="title is-5">Overview</h1>
+                            <p class="subtitle is-6">
+                                <em>Follow Knit and Ytric into unknown lands against unforeseen threats while they learn to share a single consciousness.
+                                    <br> A third person, melee combat, action-adventure level.</em>
+                            </p>
+                        </div>
+                        <div class="content">
+                            <p class="mb-1">Level Design work:</p>
+                            <ul class="mt-0">
+                                <li>Built level blockout, designed 2D map, planned combat spaces and encounters, designed puzzles.</li>
+                                <li>Conceptualized and scripted narrative moments.</li>
+                                <li>Main objectives: Introduce the player to Knit and Ytric's story and core gameplay mechanics. Hook the player with large-scale, exciting revelations.</li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <div class="column is-5-desktop">
+                        <div class="content">
+                            <br class="is-hidden-mobile">
+                            <p class="mb-1">Additional tasks:</p>
+                            <ul class="mt-0">
+                                <li>Scripted melee combat system, enemy AI behaviors, interactive puzzle elements, custom gameplay mechanics.</li></ul>
+                            <p class="mb-1">Info:</p>
+                            <ul class="mt-0">
+                                <li>Solo Project</li>
+                                <li><strong>Unreal Engine 4</strong> (used Blueprints for scripting)</li>
+                                <li><strong>Maya</strong> (used for entire blockout)</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+                <br>
                 <hr />
                 <br>
 
+                <div class="columns">
+                    <div class="column has-text-centered">
+                        <h1 class="title is-1 is-offset-2-desktop">~ Process ~</h1>
+                    </div>
+                </div>
                 <div class="columns">
                     <div class="column has-text-centered">
                         <h1 class="title is-3">Cutting content I loved to focus on the level's most important aspects</h1>
@@ -104,16 +149,16 @@
                 <div class="columns has-text-centered">
                     <div class="column is-offset-1-desktop is-5-desktop">
                         <figure class="image is-16by9">
-                            <a href="assets/outskirts/outskirts-cutbeforeannotated.png" target="_blank">
-                                <img src="assets/outskirts/outskirts-cutbeforeannotated.png">
+                            <a href="assets/outskirts/outskirts-cutbeforeannotated.jpg" target="_blank">
+                                <img src="assets/outskirts/outskirts-cutbeforeannotated.jpg">
                             </a>
                         </figure>
                         <p class=""><em>Before: A side area full of extra content.</em></p>
                     </div>
                     <div class="column is-5-desktop">
                         <figure class="image is-16by9">
-                            <a href="assets/outskirts/outskirts-cutafterannotated.png" target="_blank">
-                                <img src="assets/outskirts/outskirts-cutafterannotated.png">
+                            <a href="assets/outskirts/outskirts-cutafterannotated.jpg" target="_blank">
+                                <img src="assets/outskirts/outskirts-cutafterannotated.jpg">
                             </a>
                         </figure>
                         <p class=""><em>After: Only the combat remains.</em></p>
@@ -126,18 +171,16 @@
                     <div class="column is-offset-one-quarter-desktop is-half-desktop">
                         <div class="content">
                             <ul>
-                                <li><strong>Originally</strong>, right after draining the lake at the end of the level, players would enter this area that contained many paths to explore.
+                                <li><strong>Originally,</strong> right after draining the lake at the end of the level, players would enter this area that contained many paths to explore.
                                     <ul>
                                         <li>It was separate from the lake, but I loved how it wrapped up many ideas that earlier moments in the level built towards.</li>
-                                        <li> It contained access to several elements players spot early in the level: a bonus chest on a beach, access to an Ancient Gate, a second "bullet hell" chest which expands the mechanics. </li>
                                     </ul>
                                 </li>
                                 <li><strong>The problem:</strong> Even though I really liked the content in the area, I realized that the area as a whole detracted from the pacing through this final sequence.<ul>
                                     <li>Draining the lake contains the most important revelations in the level, and the spaces it opens up should be the focus of the level's final sequences.</li>
-                                    <li>Instead, players spent time exploring these inconsequential side paths that diminished the impact of the finale.</li>
                                     </ul> 
                                 </li>
-                                <li><strong>The solution:</strong> I tried a few layout changes while attempting to keep the content, but ultimately I found that prolonging the player's entrance into the drained lake area made for pacing that was far too slow, and cutting it all was best for the level.</li>
+                                <li><strong>The solution:</strong> I tried a few layout changes while attempting to keep the content, but ultimately I found that prolonging the player's entrance into the drained lake area made for pacing that was too slow and diminished the impact of the finale. I decided that cutting it all was best for the level.</li>
                             </ul>
                         </div>
                     </div>    
@@ -185,10 +228,9 @@
                     <div class="column is-5-desktop">
                         <div class="content">
                             <ul>
-                                <li>The first arrival to the lake has this area mostly submerged. 
-                                    <ul><li>After draining the lake, areas to explore open up, and the exit to the level appears.</li></ul></li>
-                                <li>Originally, the lake area consisted of unremarkable chunks of land sticking out. <ul><li>Revealing this area was not as exciting as I wanted, and some players did not even remember passing through the area earlier in the level.</li></ul> </li>
-                                <li>Creating a clear identity for the area - a submerged temple - solved both those issues. The solution also naturally expanded on the main feature of the area, that being the Bygone Tree and the submerged structure that it sits on.</li>
+                                <li><strong>Originally,</strong> the lake area consisted of chunks of land sticking out. Players traverse over one section, and then after draining, areas to explore open up and the exit to the level appears.</li>
+                                <li><strong>The problem:</strong> Revealing this area was not as exciting as I wanted, and some players did not even remember passing through the area earlier in the level.</li>
+                                <li><strong>The solution:</strong> Creating a clear identity for the area - a submerged temple - solved both those issues. This also naturally expanded on the main feature of the area, that being the Bygone Tree and the submerged structure that it sits on.</li>
                             </ul>
                         </div>
                     </div>    
@@ -218,15 +260,10 @@
                         <h1 class="title is-4 mb-0">Creating an additional non-combat challenge</h1>
                         <div class="content">
                             <ul>
-                                <li>Originally, this area contained a combat encounter; this made the pacing through the middle of the level too combat focused. 
+                                <li><strong>Originally,</strong> this area contained a combat encounter that occurred shortly after the level's combat introduction.</li>
+                                <li><strong>The problem:</strong> The pacing through the middle of the level was too combat focused. But I did not have existing mechanics that adequately filled this space in the level, so I sought to create an additional challenge that sat between puzzle and combat.</li>
+                                <li><strong>The solution:</strong> After several prototypes, I created this "bullet-hell" chest that focuses on my "dodging" pillar of combat.
                                     <ul>
-                                        <li>I did not have existing mechanics that adequately filled the space in this level as following beats already consisted of mainly puzzle elements.</li>
-                                        <li>Therefore, I sought to create an additional challenge that sat between puzzle and combat.</li>
-                                    </ul>
-                                </li>
-                                <li>Knit's characterization values agility over strength, so one of the main pillars of combat is dodging. 
-                                    <ul>
-                                        <li>I created this "bullet hell" chest that focuses fully on that pillar, and rewards the player's mastery with a special upgrade.</li>
                                         <li>This mechanic is particularly exciting to me because of how it may be reused and expanded on further in the game, like with different projectiles and arenas.</li>
                                     </ul> 
                                 </li>
@@ -247,16 +284,12 @@
                     </div>
 
                     <div class="column is-5-desktop">
-                        <h1 class="title is-4 mb-0">Creating a mechanic that allows for more utilization of a character's abilities</h1>
+                        <h1 class="title is-4 mb-0">Creating a mechanic that better utilizes a character's abilities</h1>
                         <div class="content">
                             <ul>
-                                <li>Originally, the only "gates" that existed were vines which Knit destroyed with his sword; this made Ytric's role in the level quite passive. 
-                                    <ul>
-                                        <li>In fact, his magic beam was used only once in the level, and for a rather minor purpose.</li>
-                                        <li>Therefore, I looked to create a mechanic that utilized his ability more frequently and in a way that was tied directly to progression through the level.</li>
-                                    </ul>
-                                </li>
-                                <li>Creating locked gates that Ytric gains the ability to open made him a much more active character.
+                                <li><strong>Originally,</strong> Ytric's beam was used only once in the level, and for a rather minor purpose.</li>
+                                <li><strong>The problem:</strong> Ytric's role in the level was quite passive, and it was difficult to build towards his important narrative moments when his contributions were so limited.</li>
+                                <li><strong>The solution:</strong> I created these simple locked gates that Ytric's beam opens, tying his ability usage directly to progression in the level.
                                     <ul>
                                         <li>This altered some early pacing, where I made an optional narrative event mandatory, and had Ytric unlock his beam through it.</li>
                                         <li>Making this event part of the main path meant I could deliver important information through it, and I believe the foundation for Ytric's storyline became stronger because of it.</li>
@@ -312,12 +345,12 @@
                                 <li><strong>Second third:</strong> Once the player is getting comfortable in the world, the threats and the narrative progress in intensity. Through the middle of the level, I aimed to show the player the types of experiences that they can expect the full (hypothetical) game to offer, such as:
                                     <ul>
                                         <li>Grand puzzles involving Ytric's magic beam and Knit's boomerang sword.</li>
-                                        <li>Additional challenge chests and unlocking new abilities.</li>
+                                        <li>Additional challenge chests, new enemy types, and unlocking new abilities.</li>
                                     </ul>
                                 </li>
                                 <li><strong>Final third:</strong> The level ends with the greatest expansion, both of the world they will soon traverse and of Ytric's potential.
                                     <ul>
-                                        <li>I wanted to hook the player firmly with a climactic revelation as Ytric somehow causes the lake to drain.</li>
+                                        <li>I wanted to hook the player firmly with a climactic revelation as Ytric somehow causes the lake to drain, opening up gameplay spaces.</li>
                                         <li>The level closes with an epic battle against a massive monster that guards the entrance to the ancient woods.</li>
                                     </ul>
                                 </li>
